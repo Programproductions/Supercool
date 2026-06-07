@@ -43,7 +43,7 @@ export function Hero() {
         <div className="flex justify-center lg:justify-end">
           <div className="relative max-w-md">
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="Supercool Software logo"
               className="w-full funk-float drop-shadow-[8px_8px_0_#2b160e]"
             />
