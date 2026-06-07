@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-funk-orange: #f38d31;
+  --color-funk-orange-deep: #b84a16;
+  --color-funk-mustard: #e5a835;
+  --color-funk-avocado: #6b8f3c;
+  --color-funk-brown: #2b160e;
+  --color-funk-cream: #f6e8b1;
+  --color-funk-magenta: #c23b7a;
+  --color-funk-teal: #1b6b6b;
+  --color-funk-rust: #8b3a2a;
+  --font-display: 'Pacifico', 'Shrikhand', cursive;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--color-funk-brown);
+  background-color: var(--color-funk-mustard);
+  background-image:
+    radial-gradient(circle at 20% 20%, rgb(246 232 177 / 0.45), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgb(194 59 122 / 0.18), transparent 40%),
+    radial-gradient(circle at 70% 80%, rgb(107 143 60 / 0.2), transparent 45%),
+    repeating-linear-gradient(
+      -12deg,
+      rgb(61 35 20 / 0.03) 0,
+      rgb(61 35 20 / 0.03) 2px,
+      transparent 2px,
+      transparent 14px
+    );
+}
+
+.groovy-border {
+  border: 3px solid var(--color-funk-brown);
+  box-shadow: 6px 6px 0 var(--color-funk-orange);
+}
+
+.funk-card {
+  border: 3px solid var(--color-funk-brown);
+  border-radius: 1.25rem;
+  background: linear-gradient(145deg, #fffdf5 0%, #ffe9c2 100%);
+  box-shadow: 8px 8px 0 var(--color-funk-teal);
+}
+
+.wavy-divider {
+  height: 24px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-funk-orange),
+    var(--color-funk-orange) 20px,
+    var(--color-funk-mustard) 20px,
+    var(--color-funk-mustard) 40px,
+    var(--color-funk-magenta) 40px,
+    var(--color-funk-magenta) 60px,
+    var(--color-funk-avocado) 60px,
+    var(--color-funk-avocado) 80px
+  );
+}
+
+@keyframes funk-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+.funk-float {
+  animation: funk-float 4s ease-in-out infinite;
+}
+
+@keyframes starburst-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.starburst {
+  animation: starburst-spin 90s linear infinite;
+}

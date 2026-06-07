@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Supercool Software">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b84a16"/>
+      <stop offset="100%" stop-color="#f38d31"/>
+    </linearGradient>
+    <filter id="sticker" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="4" dy="4" stdDeviation="0" flood-color="#2b160e"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="464" height="204" rx="28" fill="#e5a835" stroke="#2b160e" stroke-width="10"/>
+  <g filter="url(#sticker)" transform="translate(36 28) rotate(-2 200 80)">
+    <text
+      x="200"
+      y="92"
+      text-anchor="middle"
+      font-family="'Pacifico', 'Segoe Script', cursive"
+      font-size="72"
+      fill="url(#orangeGrad)"
+      stroke="#2b160e"
+      stroke-width="8"
+      paint-order="stroke fill"
+    >Supercool</text>
+    <path
+      d="M72 108 Q180 132 330 98"
+      fill="none"
+      stroke="#2b160e"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+    <path
+      d="M78 106 Q188 128 324 100"
+      fill="none"
+      stroke="#f38d31"
+      stroke-width="5"
+      stroke-linecap="round"
+    />
+    <text
+      x="200"
+      y="158"
+      text-anchor="middle"
+      font-family="'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif"
+      font-size="34"
+      font-weight="700"
+      letter-spacing="6"
+      fill="#f6e8b1"
+      stroke="#2b160e"
+      stroke-width="7"
+      paint-order="stroke fill"
+    >SOFTWARE</text>
+  </g>
+</svg>
