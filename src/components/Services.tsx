@@ -7,7 +7,7 @@ export function Services() {
         <div className="mb-10 text-center">
           <h2 className="font-display text-4xl text-funk-brown sm:text-5xl">What we do</h2>
           <p className="mx-auto mt-4 max-w-2xl text-funk-rust">
-            From first sketch to production deploy — we build software that moves.
+            From first take to final master — we make music that moves.
           </p>
         </div>
 

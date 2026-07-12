@@ -4,34 +4,33 @@ export const appEnvironment = (import.meta.env.VITE_APP_ENV ??
   'development') as AppEnvironment
 
 export const site = {
-  company: 'Supercool Software Pty Ltd',
+  company: 'Supercool Music',
   shortName: 'Supercool',
-  tagline: 'Software with soul. Built for the groove.',
+  tagline: 'Music with soul. Built for the groove.',
   description:
-    'Supercool Software crafts bold, human-centred digital products — from idea to production, with a little funk in every line of code.',
-  email: 'hello@supercool.software',
+    'Supercool Music is an Australian music company — a label, studio, and artist services crew turning bold ideas into records people can’t stop playing.',
+  email: 'hello@supercool.music',
   location: 'Australia',
-  gcpProject: 'supercool-software',
 } as const
 
 export const services = [
   {
-    title: 'Product Engineering',
+    title: 'Music Production',
     description:
-      'Full-stack web apps, APIs, and cloud-native platforms — shipped fast, built to last.',
-    icon: '⚡',
-  },
-  {
-    title: 'AI-Native Systems',
-    description:
-      'Intelligent workflows, agents, and data pipelines that actually deliver commercial outcomes.',
+      'Studio recording, mixing, and mastering that makes your sound hit different — from first take to final master.',
     icon: '🎛️',
   },
   {
-    title: 'Cloud & DevOps',
+    title: 'Artist Development',
     description:
-      'GCP infrastructure, CI/CD, and environment strategy across dev, staging, and production.',
-    icon: '☁️',
+      'A&R, artist management, and career coaching to take you from bedroom demos to the main stage.',
+    icon: '🎤',
+  },
+  {
+    title: 'Distribution & Licensing',
+    description:
+      'Get your tracks on every platform, plus sync licensing for film, TV, games, and brands.',
+    icon: '📀',
   },
 ] as const
 

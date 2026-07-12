@@ -9,24 +9,22 @@ export function About() {
           <div>
             <h2 className="font-display text-4xl text-funk-brown sm:text-5xl">About us</h2>
             <p className="mt-6 text-lg leading-relaxed text-funk-rust">
-              {site.company} is an Australian software studio that believes great products
-              should feel as good as they function. We blend modern engineering with
-              bold design — channeling a little 70s soul into every sprint.
+              {site.company} is an independent Australian music company that believes a
+              great record should feel as good as it sounds. We blend analogue warmth with
+              modern production — channeling a little 70s soul into every session.
             </p>
             <p className="mt-4 leading-relaxed text-funk-brown/80">
-              Frontend on Vercel. Backend on GCP project{' '}
-              <code className="rounded bg-funk-teal/15 px-2 py-0.5 text-sm">
-                {site.gcpProject}
-              </code>
-              . Three environments — dev, staging, production — so you ship with confidence.
+              Part record label, part production house, part artist services crew. From the
+              first take to the final master — and every stream after — we help artists build
+              careers that last.
             </p>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
             {[
-              { stat: '3', label: 'Environments', detail: 'dev · staging · prod' },
+              { stat: '50+', label: 'Releases', detail: 'and counting' },
               { stat: '∞', label: 'Groove factor', detail: 'non-negotiable' },
-              { stat: 'GCP', label: 'Cloud backend', detail: site.gcpProject },
+              { stat: '24/7', label: 'Studio time', detail: 'always open' },
               { stat: 'AU', label: 'Based in', detail: site.location },
             ].map((item) => (
               <div key={item.label} className="funk-card p-5">

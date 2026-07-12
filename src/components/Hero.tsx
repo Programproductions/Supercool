@@ -15,7 +15,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <p className="mb-4 inline-block rounded-full border-2 border-funk-brown bg-funk-mustard/60 px-4 py-1 text-xs font-bold tracking-[0.2em] uppercase">
-            Est. with groove
+            Independent music co.
           </p>
           <h1 className="font-display text-5xl leading-tight text-funk-brown sm:text-6xl lg:text-7xl">
             {site.company}
@@ -44,7 +44,7 @@ export function Hero() {
           <div className="relative max-w-md">
             <img
               src="/logo.png"
-              alt="Supercool Software logo"
+              alt="Supercool Music logo"
               className="w-full funk-float drop-shadow-[8px_8px_0_#2b160e]"
             />
           </div>
