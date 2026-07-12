@@ -6,10 +6,11 @@ export function Contact() {
       <div className="mx-auto max-w-3xl">
         <div className="funk-card overflow-hidden p-8 text-center sm:p-12">
           <h2 className="font-display text-4xl text-funk-brown sm:text-5xl">
-            Ready to build something supercool?
+            Ready to modernise your music operations?
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-funk-rust">
-            Drop us a line. We&apos;ll bring the funk and the architecture diagram.
+            Tell us about your catalog, roster, or royalty workflow. We&apos;ll map the
+            right platform — and keep the soul in the stack.
           </p>
           <a
             href={`mailto:${site.email}`}

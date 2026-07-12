@@ -9,24 +9,26 @@ export function About() {
           <div>
             <h2 className="font-display text-4xl text-funk-brown sm:text-5xl">About us</h2>
             <p className="mt-6 text-lg leading-relaxed text-funk-rust">
-              {site.company} is an Australian software studio that believes great products
-              should feel as good as they function. We blend modern engineering with
-              bold design — channeling a little 70s soul into every sprint.
+              {site.company} is an Australian studio focused on the music industry. We
+              speak catalog, splits, and statements — and we build software that helps
+              teams move faster from sign-off to statement.
             </p>
             <p className="mt-4 leading-relaxed text-funk-brown/80">
-              Frontend on Vercel. Backend on GCP project{' '}
+              Whether you run a label, manage a publishing roster, or coordinate
+              distribution, we design platforms that fit how music business actually
+              works — with secure cloud infrastructure on GCP project{' '}
               <code className="rounded bg-funk-teal/15 px-2 py-0.5 text-sm">
                 {site.gcpProject}
               </code>
-              . Three environments — dev, staging, production — so you ship with confidence.
+              .
             </p>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
             {[
-              { stat: '3', label: 'Environments', detail: 'dev · staging · prod' },
-              { stat: '∞', label: 'Groove factor', detail: 'non-negotiable' },
-              { stat: 'GCP', label: 'Cloud backend', detail: site.gcpProject },
+              { stat: 'ISRC', label: 'Catalog ready', detail: 'metadata & identifiers' },
+              { stat: '100%', label: 'Split accuracy', detail: 'writers · artists · partners' },
+              { stat: 'DSP', label: 'Distribution', detail: 'streaming & download partners' },
               { stat: 'AU', label: 'Based in', detail: site.location },
             ].map((item) => (
               <div key={item.label} className="funk-card p-5">

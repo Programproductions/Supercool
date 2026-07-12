@@ -15,7 +15,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <p className="mb-4 inline-block rounded-full border-2 border-funk-brown bg-funk-mustard/60 px-4 py-1 text-xs font-bold tracking-[0.2em] uppercase">
-            Est. with groove
+            Built for the music business
           </p>
           <h1 className="font-display text-5xl leading-tight text-funk-brown sm:text-6xl lg:text-7xl">
             {site.company}
@@ -29,7 +29,7 @@ export function Hero() {
               href="#services"
               className="groovy-border rounded-full bg-funk-orange px-6 py-3 font-bold text-funk-cream transition hover:-translate-y-1 hover:bg-funk-magenta"
             >
-              See what we do
+              What we build
             </a>
             <a
               href="#contact"
