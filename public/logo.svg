@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Supercool Software">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img" aria-label="Supercool Music">
   <defs>
     <linearGradient id="orangeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#b84a16"/>
@@ -47,6 +47,6 @@
       stroke="#2b160e"
       stroke-width="7"
       paint-order="stroke fill"
-    >SOFTWARE</text>
+    >MUSIC</text>
   </g>
 </svg>
