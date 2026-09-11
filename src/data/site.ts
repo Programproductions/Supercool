@@ -18,7 +18,7 @@ export const services = [
   {
     title: 'Rights & Royalties',
     description:
-      'Royalty engines, split sheets, recoupment logic, and statement workflows that keep artists, writers, and partners paid accurately.',
+      'Royalty engines, split sheets, recoupment logic, monthly drawdown caps, and statement workflows that keep artists, writers, and partners paid accurately.',
     icon: '💿',
   },
   {

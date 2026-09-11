@@ -17,6 +17,9 @@ export function SiteHeader() {
           <a href="#services" className="hover:text-funk-magenta transition-colors">
             Services
           </a>
+          <a href="/drawdown" className="hover:text-funk-magenta transition-colors">
+            Drawdown
+          </a>
           <a href="#contact" className="hover:text-funk-magenta transition-colors">
             Contact
           </a>
